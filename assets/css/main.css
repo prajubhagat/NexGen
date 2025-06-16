@@ -1317,9 +1317,10 @@ section,
 
 .services .service-card {
   padding: 40px 40px 40px 40px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
   transition: all 0.3s ease;
+  height:94%;
 }
 
 .services .service-card .service-icon {
