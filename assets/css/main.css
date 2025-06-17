@@ -347,8 +347,9 @@ h6 {
 
 /* Optional: make options text match nav */
 .navmenu-option {
-  background: transparent; /* works in limited browsers */
-  color: #000;
+  background: black;
+  color: #fff;
+  border:none;
 }
 
 
