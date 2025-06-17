@@ -330,6 +330,29 @@ h6 {
     left: -100%;
     visibility: visible;
   }
+
+  .navmenu select {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  padding: 0;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  line-height: 1;
+}
+
+/* Optional: make options text match nav */
+.navmenu-option {
+  background: black;
+  color: #fff;
+  border:none;
+}
+
+
 }
 
 /* Navmenu - Mobile */
