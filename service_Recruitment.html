@@ -68,12 +68,11 @@
       </nav>
       <div class="">
         <div style="float:left;position: relative;">
-            <input placeholder="Search Here.." style="color:whitesmoke; background: black;border: 1px solid whitesmoke;border-radius: 30px;padding: 0px 5px;" />
-            <i class="bi bi-search" style="position: absolute; right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none; color: #666;"> </i>
+          <i class="bi bi-search" style="cursor:pointer;color: #fff;font-size: 1.2em;margin-right: 20px;" onclick="showSearch();"> </i>
         </div>
         <div style="float:right;margin-left:10px;">
           <i class="bi bi-translate" ></i>
-          <select style="margin-left: 5px;background: black;color: whitesmoke;border-radius:3px;">
+          <select style="margin-left: 5px;background: black;color: whitesmoke;border-radius:3px;height: 28px;cursor: pointer;font-size: 0.9em;">
             <option value="ENG" class="navmenu-option">ENG</option>
             <option value="HIN" class="navmenu-option">HIN</option>
             <option value="FREN" class="navmenu-option">FREN</option>
@@ -82,6 +81,14 @@
       </div>
       <a class="btn-getstarted" href="index.html#contact">Contact</a>
 
+    </div>
+  </header>
+
+  <header id="search" class="header align-items-center fixed-top" style="padding-top:0px;display:none;">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between" style="max-width:100%;padding-top: 20px;">
+      <i class="bi bi-search" style="position: absolute;left: 50px;top: 54%;transform: translateY(-50%);pointer-events: none;color: #fff;font-size: 1em;"> </i>
+      <input placeholder="What can we help you find?" style="color: #fff;background: black;border: 1px solid whitesmoke;border-radius: 0px;padding: 10px;width: 100%;text-indent: 50px;">
+      <i class="bi bi-x" style="position: absolute;right: 40px;top: 54%;transform: translateY(-50%);cursor: pointer;color: #fff;font-size: 1.5em;" onclick="hideSearch();"> </i>
     </div>
   </header>
 
