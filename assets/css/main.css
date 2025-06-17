@@ -196,6 +196,11 @@ h6 {
 }
 
 @media (max-width: 1200px) {
+  .searchOrder{
+      order:2;
+      margin-right:20px;
+  }
+
   .header {
     padding-top: 0px;
   }
@@ -226,12 +231,6 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /* Navmenu - Desktop */
-@media (max-width: 1200px) {
-    .searchOrder{
-        order:2;
-        margin-right:20px;
-    }
-}
 @media (min-width: 1200px) {
   .navmenu {
     padding: 0;
@@ -1873,6 +1872,10 @@ section,
 @media (max-width: 575px) {
   .testimonials .testimonial-item {
     padding: 20px;
+  }
+
+  .header .logo img {
+    max-height: 30px;
   }
 }
 
