@@ -84,10 +84,10 @@
   </header>
 
   <header id="search" class="header align-items-center fixed-top" style="padding-top:0px;display:none;">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between" style="max-width:100%;padding-top: 20px;">
-      <i class="bi bi-search" style="position: absolute;left: 50px;top: 54%;transform: translateY(-50%);pointer-events: none;color: #fff;font-size: 1em;"> </i>
-      <input placeholder="What can we help you find?" style="color: #fff;background: black;border: 1px solid whitesmoke;border-radius: 0px;padding: 10px;width: 100%;text-indent: 50px;">
-      <i class="bi bi-x" style="position: absolute;right: 40px;top: 54%;transform: translateY(-50%);cursor: pointer;color: #fff;font-size: 1.5em;" onclick="hideSearch();"> </i>
+    <div class="header-container search-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <i class="bi bi-search search-container-icon"> </i>
+      <input type="text" class="search-container-input" placeholder="What can we help you find?">
+      <i class="bi bi-x search-container-x" onclick="hideSearch();"> </i>
     </div>
   </header>
 
@@ -616,17 +616,17 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex">
               <div class="member-img">
-                <img src="assets/img/person/person-m-7.webp" class="img-fluid" alt="" loading="lazy">
+                <img src="assets/img/person/person-m13.jpeg" class="img-fluid" alt="" loading="lazy">
               </div>
               <div class="member-info flex-grow-1">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>Mr. Surendra Tembhare</h4>
+                <span>Founder</span>
                 <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-facebook"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-youtube"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-youtube"></i></a>
                 </div>
               </div>
             </div>
@@ -635,23 +635,23 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex">
               <div class="member-img">
-                <img src="assets/img/person/person-f-8.webp" class="img-fluid" alt="" loading="lazy">
+                <img src="assets/img/person/person-m-1.webp" class="img-fluid" alt="" loading="lazy">
               </div>
               <div class="member-info flex-grow-1">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Mr. Abhilash Nagrare</h4>
+                <span>Co-Founder</span>
                 <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
                 <div class="social">
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-facebook"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-twitter-x"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                  <a href=""><i class="bi bi-youtube"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-youtube"></i></a>
                 </div>
               </div>
             </div>
           </div><!-- End Teams Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300" style="display:none;">
             <div class="team-member d-flex">
               <div class="member-img">
                 <img src="assets/img/person/person-m-6.webp" class="img-fluid" alt="" loading="lazy">
@@ -670,7 +670,7 @@
             </div>
           </div><!-- End Teams Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400" style="display:none;">
             <div class="team-member d-flex">
               <div class="member-img">
                 <img src="assets/img/person/person-f-4.webp" class="img-fluid" alt="" loading="lazy">
@@ -689,7 +689,7 @@
             </div>
           </div><!-- End Teams Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500" style="display:none;">
             <div class="team-member d-flex">
               <div class="member-img">
                 <img src="assets/img/person/person-m-12.webp" class="img-fluid" alt="" loading="lazy">
@@ -708,7 +708,7 @@
             </div>
           </div><!-- End Teams Member -->
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600" style="display:none;">
             <div class="team-member d-flex">
               <div class="member-img">
                 <img src="assets/img/person/person-f-9.webp" class="img-fluid" alt="" loading="lazy">
@@ -754,7 +754,7 @@
               </div>
               <div class="info-content">
                 <h4>Our Address</h4>
-                <p>1842 Maple Avenue, Portland, Oregon 97204</p>
+                <p>Plot No 10 Shilpa Housing society, opposite Arvind store Manish Nagar Nagpur 440015</p>
               </div>
             </div>
           </div>
@@ -766,8 +766,8 @@
               </div>
               <div class="info-content">
                 <h4>Email Address</h4>
-                <p>info@example.com</p>
-                <p>contact@example.com</p>
+                <p>info@nexgen.com</p>
+                <p>contact@nexgen.com</p>
               </div>
             </div>
           </div>
@@ -790,7 +790,7 @@
 
       <!-- Google Maps (Full Width) -->
       <div class="map-section" data-aos="fade-up" data-aos-delay="200">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.8496467362747!2d79.0609340749007!3d21.12151628054005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ad2c35b809a1a47%3A0x7d2f9d5c6b90e66c!2sPlot%20No%2010%2C%20Shilpa%20Housing%20Society%2C%20Manish%20Nagar%2C%20Nagpur%2C%20Maharashtra%20440015!5e0!3m2!1sen!2sin!4v1718764491910!5m2!1sen!2sin" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
       <!-- Contact Form Section (Overlapping) -->
@@ -902,11 +902,9 @@
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p>Plot No 10 Shilpa Housing society, opposite Arvind store Manish Nagar Nagpur 440015</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 84129 99936</span></p>
+          <p><strong>Email:</strong> <span>info@nexgen.com</span></p>
         </div>
 
       </div>

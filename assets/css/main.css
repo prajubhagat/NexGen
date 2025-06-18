@@ -3827,3 +3827,45 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.search-container {
+    padding: 25px 25px 25px 35px !important;
+}
+
+.search-container-icon {
+    position: absolute;
+    left: auto;
+    pointer-events: none;
+    color: #fff;
+    font-size: 1em;
+    margin-left: 20px;
+}
+
+.search-container-input {
+    color: #fff;
+    background: black;
+    border: 1px solid whitesmoke;
+    border-radius: 0px;
+    padding: 12px;
+    width: 100%;
+    text-indent: 50px;
+}
+
+.search-container-x {
+    position: absolute;
+    right: 0px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5em;
+    margin-right: 40px;
+}
+
+@media (max-width: 575px) {
+  .search-container {
+      padding: 12px 25px 12px 25px !important;
+  }
+
+  .search-container-input {
+      padding: 10px;
+  }
+}
