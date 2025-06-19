@@ -500,7 +500,7 @@ h6 {
 
 .footer .footer-top {
   /* padding-top: 50px; */
-  padding: 30px 120px;
+  padding: 30px 70px;
   max-width: 100%;
   padding-bottom: 0px;
   border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -688,7 +688,16 @@ h6 {
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
+  .footer .footer-top {
+    /* padding-top: 50px; */
+    padding: 30px 40px;
+    max-width: 100%;
+    padding-bottom: 0px;
+    border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
+}
+
+
 
 /*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
@@ -2244,7 +2253,7 @@ section,
 }
 
 .team .team-member .member-info {
-  padding: 25px;
+  padding: 20px;
   text-align: left;
 }
 
