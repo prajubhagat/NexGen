@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - Strategy Bootstrap Template</title>
+  <title>Index - Strategy Bootstrap Template</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -36,10 +36,10 @@
   ======================================================== -->
 </head>
 
-<body class="service-details-page">
+<body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <header id="header" class="header d-flex align-items-center fixed-top" style="padding-top:0px;display:block;">
+    <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between" style="max-width:100%;">
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -50,7 +50,7 @@
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li class="dropdown"><a href="index.html#services" class="active"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown"><a href="#services"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="service_humanResources.html">Human Resources Management Services</a></li>
               <li><a href="service_Recruitment.html">Recruitment and Onboarding</a></li>
@@ -62,13 +62,13 @@
             </ul>
           </li>
           <li><a href="careers.html">Careers</a></li>
-          <li><a href="index.html#team">Teams</a></li>
+          <li><a href="index.html#team"  class="active">Teams</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
       <div class="searchOrder">
         <div style="float:left;position: relative;">
-          <i class="bi bi-search" style="cursor:pointer;color: #fff;font-size: 1.2em;margin-right: 20px;" onclick="showSearch();"> </i>
+            <i class="bi bi-search" style="cursor:pointer;color: #fff;font-size: 1.2em;margin-right: 20px;" onclick="showSearch();"> </i>
         </div>
         <div style="float:right;margin-left:10px;">
           <i class="bi bi-translate" ></i>
@@ -79,8 +79,7 @@
           </select>
         </div>
       </div>
-      <a class="btn-getstarted" href="index.html#contact">Contact</a>
-
+      <a class="btn-getstarted" href="#contact">Contact</a>
     </div>
   </header>
 
@@ -93,315 +92,140 @@
   </header>
 
   <main class="main">
+    <!-- Teams Section -->
+    <section id="team" class="team section light-background">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background" data-aos="fade">
-      <div class="container position-relative">
-        <!-- <h1>Service Details</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p> -->
-        <nav class="breadcrumbs" style="float:left;">
-          <ol>
-            <li><a href="index.html#services">Services</a></li>
-            <li class="current">Compensations and Benefits</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Teams</h2>
+        <div><span>Check Our</span> <span class="description-title">Teams</span></div>
+      </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row gy-5">
+        <div class="row gy-4">
 
-          <div class="order-lg-1 order-2" style="width:100%;">
-            <div class="service-main-content">
-              <div class="service-header" data-aos="fade-up">
-                <h1>Compensations and Benefits</h1>
-                <!-- <div class="service-meta">
-                  <span><i class="bi bi-award"></i> Premium Service</span>
-                  <span><i class="bi bi-clock"></i> Since 2015</span>
-                  <span><i class="bi bi-star-fill"></i> 4.9/5 Rating</span>
-                </div> -->
-                <p class="lead">
-                  Our innovative total rewards solutions create seamless retirement, health, and leave benefits for a healthier, more engaged workforce.
-                </p>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-m13.jpeg" class="img-fluid" alt="" loading="lazy">
               </div>
-
-              <div class="service-tabs" data-aos="fade-up" data-aos-delay="200">
-                <!-- <ul class="nav nav-tabs" id="serviceTab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#service-details-tab-1" type="button" role="tab" aria-controls="overview" aria-selected="true">
-                      <i class="bi bi-info-circle"></i> Overview
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#service-details-tab-2" type="button" role="tab" aria-controls="process" aria-selected="false">
-                      <i class="bi bi-diagram-3"></i> Process
-                    </button>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" data-bs-toggle="tab" data-bs-target="#service-details-tab-3" type="button" role="tab" aria-controls="benefits" aria-selected="false">
-                      <i class="bi bi-graph-up-arrow"></i> Benefits
-                    </button>
-                  </li>
-                </ul> -->
-
-                <div class="tab-content">
-
-                  <div class="tab-pane fade show active" id="service-details-tab-1" role="tabpanel" aria-labelledby="overview-tab">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="content-block">
-                          <h3>Driving Performance and Attracting Top Talent in Country</h3>
-                          <p>In today's dynamic business landscape, especially in a growing hub like Nagpur, a well-structured Compensation and Benefits (C&B) strategy is more than just payroll – it's a powerful tool for attracting, retaining, and motivating your workforce. At [Your Company Name], we specialize in designing and implementing C&B programs that align with your business objectives, comply with local regulations, and resonate with the aspirations of talent in the Country.</p>
-                          <p>We understand that competitive salaries and comprehensive benefits are crucial for employee satisfaction and productivity. Our expert team helps you navigate the complexities of compensation structures, benefits administration, and performance-based incentives, ensuring your C&B strategy gives you a distinct advantage in the market.</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <img src="assets/img/services/services-10.webp" alt="Compensations and Benefits" class="img-fluid rounded">
-                      </div>
-                    </div>
-                  </div>
-
-                  <!-- <div class="tab-pane fade" id="service-details-tab-2" role="tabpanel" aria-labelledby="process-tab">
-                    <div class="process-timeline">
-                      <div class="timeline-item">
-                        <div class="timeline-marker">01</div>
-                        <div class="timeline-content">
-                          <h4>Discovery &amp; Research</h4>
-                          <p>Thorough market analysis and competitor research to define your target audience and marketing goals.</p>
-                        </div>
-                      </div>
-
-                      <div class="timeline-item">
-                        <div class="timeline-marker">02</div>
-                        <div class="timeline-content">
-                          <h4>Strategy Development</h4>
-                          <p>Creating comprehensive marketing strategies tailored to your specific business objectives and target demographics.</p>
-                        </div>
-                      </div>
-
-                      <div class="timeline-item">
-                        <div class="timeline-marker">03</div>
-                        <div class="timeline-content">
-                          <h4>Implementation</h4>
-                          <p>Executing the marketing plan across various channels with precise targeting and creative content delivery.</p>
-                        </div>
-                      </div>
-
-                      <div class="timeline-item">
-                        <div class="timeline-marker">04</div>
-                        <div class="timeline-content">
-                          <h4>Analysis &amp; Optimization</h4>
-                          <p>Continuous monitoring, data analysis, and strategy refinement to maximize ROI and campaign effectiveness.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
-
-                  <!-- <div class="tab-pane fade" id="service-details-tab-3" role="tabpanel" aria-labelledby="benefits-tab">
-                    <div class="row g-4">
-                      <div class="col-md-6">
-                        <div class="benefit-card">
-                          <div class="benefit-icon">
-                            <i class="bi bi-graph-up"></i>
-                          </div>
-                          <h4>Increased Brand Visibility</h4>
-                          <p>Expand your digital footprint and reach more potential customers through targeted marketing efforts.</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="benefit-card">
-                          <div class="benefit-icon">
-                            <i class="bi bi-people"></i>
-                          </div>
-                          <h4>Higher Engagement Rates</h4>
-                          <p>Create meaningful connections with your audience through relevant and compelling content strategies.</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="benefit-card">
-                          <div class="benefit-icon">
-                            <i class="bi bi-cash-coin"></i>
-                          </div>
-                          <h4>Improved ROI</h4>
-                          <p>Maximize your marketing budget with data-driven campaigns that deliver measurable results.</p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="benefit-card">
-                          <div class="benefit-icon">
-                            <i class="bi bi-bar-chart-line"></i>
-                          </div>
-                          <h4>Data-Driven Decisions</h4>
-                          <p>Make informed marketing choices based on comprehensive analytics and performance metrics.</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div> -->
+              <div class="member-info flex-grow-1">
+                <h4>Mr. Surendra Tembhare</h4>
+                <span>Founder</span>
+                <p>Aliquam iure quaerat voluptatem praesentium possimus unde laudantium vel dolorum distinctio dire flow</p>
+                <div class="social">
+                  <a href="" style="display:none;"><i class="bi bi-facebook"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-youtube"></i></a>
                 </div>
+                <a href="teams1_surendra.html" class="" style="margin-top:10px;font-size:14px;display:block;">Read More</a>
               </div>
-
-              <!-- <div class="service-gallery" data-aos="fade-up" data-aos-delay="300">
-                <h3>Our Marketing Portfolio</h3>
-                <div class="service-details-slider swiper init-swiper">
-                  <script type="application/json" class="swiper-config">
-                    {
-                      "loop": true,
-                      "speed": 800,
-                      "autoplay": {
-                        "delay": 5000
-                      },
-                      "slidesPerView": 1,
-                      "spaceBetween": 30,
-                      "breakpoints": {
-                        "768": {
-                          "slidesPerView": 2
-                        }
-                      },
-                      "pagination": {
-                        "el": ".swiper-pagination",
-                        "type": "bullets",
-                        "clickable": true
-                      }
-                    }
-                  </script>
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="portfolio-item">
-                        <img src="assets/img/services/services-2.webp" alt="" class="img-fluid" loading="lazy">
-                        <div class="portfolio-info">
-                          <h5>Social Media Campaign</h5>
-                          <p>Increased engagement by 187%</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="portfolio-item">
-                        <img src="assets/img/services/services-4.webp" alt="" class="img-fluid" loading="lazy">
-                        <div class="portfolio-info">
-                          <h5>SEO Optimization</h5>
-                          <p>Ranked #1 for target keywords</p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="portfolio-item">
-                        <img src="assets/img/services/services-10.webp" alt="" class="img-fluid" loading="lazy">
-                        <div class="portfolio-info">
-                          <h5>Content Marketing</h5>
-                          <p>200% increase in organic traffic</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-              </div> -->
             </div>
-          </div>
+          </div><!-- End Teams Member -->
 
-          <!-- <div class="col-lg-4 order-lg-2 order-1">
-            <div class="service-sidebar" data-aos="fade-left">
-              <div class="action-card" data-aos="zoom-in" data-aos-delay="100">
-                <h3>Ready to Boost Your Online Presence?</h3>
-                <p>Get a free consultation with our digital marketing experts and discover how we can help grow your business.</p>
-                <a href="#" class="btn-primary">Schedule Consultation</a>
-                <span class="guarantee"><i class="bi bi-shield-check"></i> 100% Satisfaction Guarantee</span>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-m-1.webp" class="img-fluid" alt="" loading="lazy">
               </div>
-
-              <div class="service-features-list" data-aos="fade-up" data-aos-delay="200">
-                <h4>What We Offer</h4>
-                <ul>
-                  <li>
-                    <i class="bi bi-megaphone"></i>
-                    <div>
-                      <h5>Social Media Marketing</h5>
-                      <p>Strategic presence across all relevant platforms</p>
-                    </div>
-                  </li>
-                  <li>
-                    <i class="bi bi-search"></i>
-                    <div>
-                      <h5>SEO Optimization</h5>
-                      <p>Improve your search engine rankings</p>
-                    </div>
-                  </li>
-                  <li>
-                    <i class="bi bi-newspaper"></i>
-                    <div>
-                      <h5>Content Marketing</h5>
-                      <p>Engaging content that converts visitors</p>
-                    </div>
-                  </li>
-                  <li>
-                    <i class="bi bi-envelope-paper"></i>
-                    <div>
-                      <h5>Email Campaigns</h5>
-                      <p>Targeted email marketing strategies</p>
-                    </div>
-                  </li>
-                  <li>
-                    <i class="bi bi-graph-up-arrow"></i>
-                    <div>
-                      <h5>Analytics &amp; Reporting</h5>
-                      <p>Comprehensive performance tracking</p>
-                    </div>
-                  </li>
-                </ul>
+              <div class="member-info flex-grow-1">
+                <h4>Mr. Abhilash Nagrare</h4>
+                <span>Co-Founder</span>
+                <p>Labore ipsam sit consequatur exercitationem rerum laboriosam laudantium aut quod dolores exercitationem ut</p>
+                <div class="social">
+                  <a href="" style="display:none;"><i class="bi bi-facebook"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href="" style="display:none;"><i class="bi bi-youtube"></i></a>
+                </div>
+                <a href="teams2_abhilash.html" class="" style="margin-top:10px;font-size:14px;display:block;">Read More</a>
               </div>
+            </div>
+          </div><!-- End Teams Member -->
 
-              <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
-                <div class="testimonial-header">
-                  <i class="bi bi-quote"></i>
-                  <div class="rating">
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                    <i class="bi bi-star-fill"></i>
-                  </div>
-                </div>
-                <p class="testimonial-text">
-                  "Their digital marketing strategies transformed our online presence completely. We've seen a 300% increase in qualified leads within just 3 months."
-                </p>
-                <div class="client-info">
-                  <img src="assets/img/person/person-m-5.webp" alt="Client" class="client-image">
-                  <div class="client-details">
-                    <h5>Robert Johnson</h5>
-                    <span>CEO, TechSolutions Inc.</span>
-                  </div>
-                </div>
-              </div> -->
-
-              <!-- <div class="contact-info" data-aos="fade-up" data-aos-delay="400">
-                <h4>Have Questions?</h4>
-                <div class="contact-method">
-                  <i class="bi bi-telephone-fill"></i>
-                  <div>
-                    <span>Call Us Now</span>
-                    <p>+1 (803) 952-3845</p>
-                  </div>
-                </div>
-                <div class="contact-method">
-                  <i class="bi bi-envelope-fill"></i>
-                  <div>
-                    <span>Email Us</span>
-                    <p>marketing@example.com</p>
-                  </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300" style="display:none;">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-m-6.webp" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="member-info flex-grow-1">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+                <p>Illum minima ea autem doloremque ipsum quidem quas aspernatur modi ut praesentium vel tque sed facilis at qui</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
                 </div>
               </div>
             </div>
-          </div>
+          </div><!-- End Teams Member -->
 
-        </div> -->
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400" style="display:none;">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-f-4.webp" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="member-info flex-grow-1">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+                <p>Magni voluptatem accusamus assumenda cum nisi aut qui dolorem voluptate sed et veniam quasi quam consectetur</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Teams Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="500" style="display:none;">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-m-12.webp" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="member-info flex-grow-1">
+                <h4>Brian Doe</h4>
+                <span>Marketing</span>
+                <p>Qui consequuntur quos accusamus magnam quo est molestiae eius laboriosam sunt doloribus quia impedit laborum velit</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Teams Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="600" style="display:none;">
+            <div class="team-member d-flex">
+              <div class="member-img">
+                <img src="assets/img/person/person-f-9.webp" class="img-fluid" alt="" loading="lazy">
+              </div>
+              <div class="member-info flex-grow-1">
+                <h4>Josepha Palas</h4>
+                <span>Operation</span>
+                <p>Sint sint eveniet explicabo amet consequatur nesciunt error enim rerum earum et omnis fugit eligendi cupiditate vel</p>
+                <div class="social">
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a href=""><i class="bi bi-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Teams Member -->
+
+        </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
-
+    </section><!-- /Teams Section -->
   </main>
 
   <footer id="footer" class="footer">
@@ -410,7 +234,7 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/nextGenLogo.png" alt="">
+            <img src="assets/img/nextGenLogo.png" alt="NexGen">
           </a>
           <p>NexGen Business Solution is a leading Business Transformation company. We combine our deep industry knowledge with business process management, technology and analytics expertise to co-create innovative, digital-led transformational solutions with clients across the Globe.</p>
           <div class="social-links d-flex mt-4">
@@ -423,19 +247,19 @@
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
-           <ul>
+          <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="careers.html">Careers</a></li>
-          <li><a href="index.html#team">Teams</a></li>
+            <li><a href="#team">Teams</a></li>
           </ul>
         </div>
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
-           <ul>
-             <li><a href="service_humanResources.html">Human Resources Management Services</a></li>
+          <ul>
+            <li><a href="service_humanResources.html">Human Resources Management Services</a></li>
             <li><a href="service_Recruitment.html">Recruitment and Onboarding</a></li>
               <li><a href="service_employeeSupport.html">Employee Support</a></li>
               <li><a href="service_Compenstion.html">Compensations and Benefits</a></li>
@@ -447,11 +271,9 @@
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>A108 Adam Street</p>
-          <p>New York, NY 535022</p>
-          <p>United States</p>
-          <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-          <p><strong>Email:</strong> <span>info@example.com</span></p>
+          <p>Plot No 10 Shilpa Housing society, opposite Arvind store Manish Nagar Nagpur 440015</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 84129 99936</span></p>
+          <p><strong>Email:</strong> <span>info@nexgen.com</span></p>
         </div>
 
       </div>
